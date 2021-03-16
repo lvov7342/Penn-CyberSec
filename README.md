@@ -141,7 +141,7 @@ These Beats allow us to collect the following information from each machine:
 
    - *Filebeat: **Filebeat monitors the log files or locations that you specify, such as Syslogs, as visualized by Kibana below.***
 
-      ***![Filebeat_ELK](Screenshots/Filebeat_ELK.jpg)***
+      ***![Filebeat_ELK](Screenshots/Filebeat_ELK.JPG)***
 
       
 
