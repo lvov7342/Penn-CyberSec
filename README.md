@@ -69,7 +69,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - What does Filebeat watch for? ***Filebeat watches and collects data about the file system.***
 - What does Metricbeat record? ***Metricbeat records and collects metrics of the system itself***.
 
-The configuration details of each machine may be found below. 
+The configuration details of each machine may be found below: 
 ```
 | Name                 | Function     | IP Address     | Operating System |
 |----------------------|--------------|----------------|------------------|
@@ -123,7 +123,7 @@ The playbook implements the following tasks:
       - 9200:9200
       - 5044:5044
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance:
 
 ![Docker_Container_ELK](Screenshots/Docker_Container_ELK.JPG)
 
@@ -137,7 +137,7 @@ I have installed the following Beats on these machines:
 - Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see.
+- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see:
 
    - *Filebeat: **Filebeat monitors the log files or locations that you specify, such as Syslogs, as visualized by Kibana below.***
 
