@@ -6,7 +6,7 @@ In this project, I set up a cloud monitoring system by configuring an ELK stack 
 
 The files in this repository were used to configure the network presented below.
 
-![ELK_Diagram_Final](Diagrams/Network_Diagram.jpg)
+![Network_Diagram](Diagrams/Network_Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the playbook files may be used to install certain pieces of it, such as Filebeat.
 
